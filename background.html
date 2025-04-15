@@ -1,0 +1,37 @@
+html>
+  <head>
+    <script>
+      function change(col) {
+        switch(col) {
+          case 'red':
+            document.bgColor = 'red';
+            break;
+          case 'green':
+            document.bgColor = 'green';
+            break;
+          case 'yellow':
+            document.bgColor = 'yellow';
+            break;
+          case 'pink':
+            document.bgColor = 'pink';
+            break;
+          case 'brown':
+            document.bgColor = 'brown';
+            break;  
+          case 'black':
+            document.bgColor = 'black';
+            break;  
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input type="radio" name="c" onClick="change('red')">RED<br>
+    <input type="radio" name="c" onClick="change('green')">GREEN<br>
+    <input type="radio" name="c" onClick="change('yellow')">YELLOW<br>
+    <input type="radio" name="c" onClick="change('pink')">PINK<br>
+    <input type="radio" name="c" onClick="change('brown')">BROWN<br>
+    <input type="radio" name="c" onClick="change('black')">BLACK<br>
+  </body>
+</html>
+
